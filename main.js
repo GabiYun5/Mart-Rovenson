@@ -21,7 +21,7 @@ canvas = document.getElementById("lienzo");
         ctx.save();
         ctx.translate(x + 50, y+ 45);
         ctx.rotate(r * Math.PI / 180);
-        ctx.translate(x - 50, y - 45);
+        ctx.translate(-x - 50, -y - 45);
         ctx.drawImage(Robenson, x, y, 100, 90);
         ctx.restore();
     }
@@ -47,6 +47,7 @@ canvas = document.getElementById("lienzo");
             y = y + 10;
             r = 90;
         }
+        bordes();
         dibujarFondo();
         dibujarRobenson();
         console.log(x, ",", y, ",", r)
