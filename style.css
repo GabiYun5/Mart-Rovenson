@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-image: url("https://docs.google.com/uc?id=1N8avwvUXAGR5aPSUhVbAT5bir4tY9ztm");
+    background-size: cover;
+}
+canvas{
+    background-image: url("https://docs.google.com/uc?id=1kmT5R5MaRBD9cXcrAc6UtSgCslJLnvZT");
+    border: ridge brown 10px;
+}
